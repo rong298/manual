@@ -11,3 +11,5 @@ nc -l 12345|tar xvf -
 
 tar cvf - sites_enabled |nc 192.168.3.161 12345
 ```
+
+文档来源：https://github.com/hy0kl/profile/blob/master/note/nc-transfer-file.md
